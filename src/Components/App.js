@@ -1,15 +1,14 @@
 import '../styleSheets/App.css';
 import React from 'react';
 import PokemonsList from './PokemonsList';
-import Pokemons from '../data/Pokemons';
+import pokemons from '../data/pokemons';
 
 class App extends React.Component {
   render() {
-    console.log(Pokemons);
+    console.log(pokemons);
     return (
       <div>
-        App
-        <PokemonsList Pokemons={Pokemons} />
+        <PokemonsList pokemons={pokemons} />
       </div>
     );
   }
