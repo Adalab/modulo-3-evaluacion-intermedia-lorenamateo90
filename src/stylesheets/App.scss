@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.title {
+  text-align: center;
+  color: rgb(24, 85, 72);
+}
+.pokemon-list {
+  padding: 0;
+  margin: 30px;
+  height: 100vh;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.pokemon-item {
+  background-color: rgb(226, 241, 240);
+  margin: 10px;
+  text-transform: uppercase;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.name {
+  font-size: 15px;
+  border: 1px solid green;
+}
